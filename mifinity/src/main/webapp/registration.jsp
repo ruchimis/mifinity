@@ -31,7 +31,7 @@
 
 			<spring:bind path="passwordConfirm">
 				<div class="form-group ${status.error ? 'has-error' : ''}">
-					<form:input type="password" path="passwordConfirm" class="form-control" placeholder="Confirm password" value="ruchi123"></form:input>
+					<form:input type="password" path="passwordConfirm" class="form-control" placeholder="Confirm password"></form:input>
 					<form:errors path="passwordConfirm"></form:errors>
 				</div>
 			</spring:bind>
